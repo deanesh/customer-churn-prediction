@@ -3,3 +3,5 @@ tensorflow
 nltk
 pandas
 scikit-learn
+xgboost
+matplotlib
