@@ -1,6 +1,6 @@
-#### Project: Customer Churn Prediction
+#### **Project: Customer Churn Prediction**
 
-##### Summary
+##### 🗂️ **Summary**
 * **Customer Churn Prediction with Logistic Regression and XGBoost**
     *  Built robust classification pipelines using scikit-learn with preprocessing (StandardScaler, OneHotEncoder, OrdinalEncoder), L1-based feature selection, and modeling.
     *  Trained and evaluated both Logistic Regression and XGBoost using 5-fold Stratified Cross-Validation.
@@ -47,7 +47,7 @@
 | `Churn`            | Whether the customer has left the company (`Yes` or `No`)         |
 ---
 
-##### 📊 **Classification Metrics Summary**
+##### 📊 **`Classification Metrics Summary`**
 | Metric     | Means                                                                 | Formula                                              | Best When                                               |
 |------------|-----------------------------------------------------------------------|------------------------------------------------------|----------------------------------------------------------|
 | Accuracy   | Overall, how many predictions were correct?                           | (TP + TN) / (TP + TN + FP + FN)                      | Classes are balanced and all errors matter equally.      |
@@ -55,7 +55,7 @@
 | Recall     | Of all actual positives, how many did we correctly predict?           | TP / (TP + FN)                                       | False negatives are costly (e.g., missing cancer cases). |
 | F1 Score   | Balance between Precision and Recall                                  | 2 * (Precision * Recall) / (Precision + Recall)      | You need a balance and classes are imbalanced.           |
 
-##### 🛠️ **How to Improve These Metrics**
+##### 🛠️ **`How to Improve These Metrics`**
 | Technique                      | Helps Improve                          |
 |-------------------------------|----------------------------------------|
 | ✅ Tune classification threshold | Precision or Recall (adjust trade-off) |
