@@ -1,26 +1,16 @@
 #### **Project: Customer Churn Prediction**
 
-##### 🗂️ **Summary**
+#### 🗂️ **Summary**
 * **Customer Churn Prediction with Logistic Regression and XGBoost**
     *  Built robust classification pipelines using scikit-learn with preprocessing (StandardScaler, OneHotEncoder, OrdinalEncoder), L1-based feature selection, and modeling.
     *  Trained and evaluated both Logistic Regression and XGBoost using 5-fold Stratified Cross-Validation.
-    *  Achieved XGBoost Accuracy: ~XX%, ROC AUC: ~YY on test set.
+    *  Achieved XGBoost Accuracy: ~79%, ROC AUC: ~83% on test set.
     *  Developed detailed EDA and model evaluation reports including ROC curves, feature importances, and confusion matrices.
-    *  Tools: pandas, scikit-learn, xgboost, matplotlib, seaborn
-    * **ROC Curve (Receiver Operating Characteristic Curve)**
-* **Logistic Regression** is a **classification algorithm** used to predict probability of a **binary** outcome (like Yes/No, 0/1, True/False).
-* **XtremeGradientBoostClassifier:** classification model based on gradient boosting decision trees
-    * **Penalties** are used to prevent overfitting by discouraging complex models (like large coefficients).
-        * L1 - Adds **absolute value** of weights to loss, L2 - Adds **squared value** of weights to loss
-    * **Solvers** are **optimization algorithms** used to find best model parameters (like weights) by minimizing loss function.
-    * **Loss function** measures how far off a model's predictions are from actual values.
-        * logloss/cross-entropy:  difference between the **actual label** and **predicted probability**
-        * Cross-Entropy is just a general term (used in multi-class too), while Log Loss often refers to the binary case
-    * **Gradient Descent** optimization algorithm used to minimize loss function by updating model parameters
-    * **Model parameters** are internal values a machine learning model learns from training data
+    *  packages: pandas, scikit-learn, xgboost, matplotlib, seaborn
+    * EDA (Exploratory Data Analysis) dashboards
 ---
-* **CSV File:** **`Customer-Churn.csv`**
-* **Columns:**
+#### `CSV File:` `Customer-Churn.csv`
+* `Columns:`
 
 | Column Name        | Description                                                       |
 | ------------------ | ----------------------------------------------------------------- |
